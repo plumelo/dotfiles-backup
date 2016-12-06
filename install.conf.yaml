@@ -9,4 +9,6 @@
       create: true
       path: fishfile
     ~/.config/i3: .i3
-    ~/.fonts: fonts
+    ~/.fonts: 
+      create: true
+      path: .fonts
