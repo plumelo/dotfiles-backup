@@ -2,5 +2,11 @@
 - shell:
     - [curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisher, Install fisherman]
 - link:
-    ~/.vimrc: vimrc
-    ~/.config/fish/fishfile: fishfile
+    ~/.vimrc:
+      create: true
+      path: vimrc
+    ~/.config/fish/fishfile:
+      create: true
+      path: fishfile
+    ~/.config/i3: .i3
+    ~/.fonts: fonts
