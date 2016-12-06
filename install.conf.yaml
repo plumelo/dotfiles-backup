@@ -8,7 +8,10 @@
     ~/.config/fish/fishfile:
       create: true
       path: fishfile
-    ~/.config/i3: .i3
+    ~/.config/i3:
+      create: true
+      path: i3
     ~/.fonts: 
       create: true
-      path: .fonts
+      path: fonts
+    ~/.compton.conf: compton.conf
