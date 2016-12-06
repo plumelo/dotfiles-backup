@@ -1,5 +1,6 @@
 - clean: ['~']
-
+- shell:
+    - [curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisher, Install fisherman]
 - link:
     ~/.vimrc: vimrc
     ~/.config/fish/fishfile: fishfile
