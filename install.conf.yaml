@@ -1,8 +1,7 @@
--e - clean: ['~']
+- clean: ['~']
 
 - link:
     ~/.bash_profile: bash_profile
     ~/.gitconfig: gitconfig
     ~/.vimrc: vimrc
-
-
+    ~/.config/fish/fishfile: fishfile
