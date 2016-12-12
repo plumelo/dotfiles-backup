@@ -10,6 +10,7 @@ Plug 'evidens/vim-twig'
 Plug 'altercation/vim-colors-solarized'
 Plug 'pangloss/vim-javascript'
 Plug 'altercation/vim-colors-solarized'
+Plug 'potatoesmaster/i3-vim-syntax'
 " End plugins
 call plug#end()
 " Settings
